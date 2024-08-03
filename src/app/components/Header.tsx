@@ -1,5 +1,6 @@
-// import NavBar from "@/components/NavBar";
+import NavBar from "@/app/components/NavBar";
 import { createClient } from "@/prismicio";
+import WordMark from "./WordMark";
 
 export default async function Header() {
   const client = createClient();
@@ -7,7 +8,8 @@ export default async function Header() {
 
   return (
     <header>
-      {/* <NavBar settings={settings} /> */}
+      <NavBar settings={settings} />
+      <WordMark />
     </header>
   );
 }
