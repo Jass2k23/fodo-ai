@@ -1,4 +1,4 @@
-import WordMark from "@/app/components/WordMark";
+import WordMark from "@/components/WordMark";
 import { createClient } from "@/prismicio";
 import { PrismicNextLink } from "@prismicio/next";
 import Link from "next/link";

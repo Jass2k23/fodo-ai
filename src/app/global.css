@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .glass-container {
+.glass-container {
   position: relative;
 }
 
@@ -28,4 +28,4 @@
   .signal-line {
     --rotation: 0deg;
   }
-} */
+}

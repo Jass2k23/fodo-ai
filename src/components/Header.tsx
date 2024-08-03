@@ -1,4 +1,4 @@
-import NavBar from "@/app/components/NavBar";
+import NavBar from "@/components/NavBar";
 import { createClient } from "@/prismicio";
 import WordMark from "./WordMark";
 
@@ -9,7 +9,6 @@ export default async function Header() {
   return (
     <header>
       <NavBar settings={settings} />
-      <WordMark />
     </header>
   );
 }

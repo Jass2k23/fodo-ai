@@ -4,8 +4,8 @@ import { useState } from "react";
 import Link from "next/link";
 import { Content, asLink } from "@prismicio/client";
 import { PrismicNextLink } from "@prismicio/next";
-import ButtonLink from "@/app/components//ButtonLink";
-import WordMark from "@/app/components//WordMark";
+import ButtonLink from "@/components/ButtonLink";
+import WordMark from "@/components/WordMark";
 import { MdMenu, MdClose } from "react-icons/md";
 import clsx from "clsx";
 import { usePathname } from "next/navigation";
@@ -24,7 +24,7 @@ export default function NavBar({ settings }: NavBarProps) {
         <div className="flex items-center justify-between">
           <Link href="/" className="z-50" onClick={() => setOpen(false)}>
             <WordMark />
-            <span className="sr-only">Glisten.ai Home Page</span>
+            <span className="sr-only">fodo.ai Home Page</span>
           </Link>
           <button
             type="button"
