@@ -3,7 +3,7 @@
 ## Disclaimer
 This project is currently under construction and will be available soon. Stay tuned for more updates.
 
-Due to confidentiality agreements (NDAs) with the client, I am unable to share the complete project code. However, I am permitted to showcase the code for the landing page, which you can find in this repository. I'm only making the repo public for my interview process as after that I'll make the repo private again.
+Due to confidentiality agreements (NDAs) with the client, I am unable to share the complete project code. However, I am permitted to showcase the code for the landing page, which you can find in this repository.
 
 ## Overview
 The landing page is part of a larger project that aims to [briefly describe the purpose of the project without revealing sensitive information]. The goal is to [mention the objectives or main functionalities of the project in a general way].
@@ -20,6 +20,7 @@ The landing page is part of a larger project that aims to [briefly describe the 
 - **Responsive Design**: The landing page is fully responsive and optimized for various screen sizes.
 - **Interactive Elements**: Includes dynamic components like buttons, forms, and animations.
 - **Modern Aesthetics**: Designed with a clean and modern look, following best practices in UI/UX.
+- **Dynamic Content**: Content is managed through Prismic, allowing for easy updates and changes without code modifications.
 
 ## Preview
 Link -> https://fodo-ai.vercel.app/
